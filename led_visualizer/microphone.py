@@ -1,7 +1,6 @@
 import pyaudio
 import config
 
-
 def start_stream(callback):
     p = pyaudio.PyAudio()
     stream = p.open(format=pyaudio.paInt16,
